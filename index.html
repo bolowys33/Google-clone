@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <img src="apps_FILL0_wght400_GRAD0_opsz48.png" alt="apps">
-            <img src="account_circle_FILL0_wght400_GRAD0_opsz48.png" alt="accounts">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Google Clone</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <img src="./images/apps_black_24dp.svg" alt="apps" />
+                    <img
+                        src="./images/account_circle_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="accounts"
+                    />
+                </nav>
+            </header>
 
-        </nav>
-    </header>
+            <main>
+                <div class="google-logo">
+                    <img
+                        src="./images/googlelogo_color.png"
+                        alt="google_image"
+                    />
+                </div>
+                <div class="search-bar">
+                    <div class="search">
+                        <img
+                            src="./images/search_black_24dp.svg"
+                            alt="search icon"
+                        />
+                    </div>
+                    <input type="text" />
+                    <div class="mic-cam">
+                        <img src="./images/mic_black_24dp.svg" alt="mic icon" />
+                        <img
+                            src="./images/photo_camera_black_24dp.svg"
+                            alt="camera icon"
+                        />
+                    </div>
+                </div>
+                <div class="btns_container">
+                    <button>Google Search</button>
+                    <button>I'm feeling lucky</button>
+                    <p>Google offered in: 
+                        <a href="#">Hausa</a>
+                        <a href="#">Igbo</a>
+                        <a href="#">Èdè Yorùbá</a>
+                        <a href="#">Nigerian Pidgin</a>
+                    </p>
+                </div>
+            </main>
 
-    <main>
-        <img src="googlelogo_color_272x92dp.png" alt="google_image">
-        <input type="text">
-        <div class="btns_container">
-            <button>Google Search</button>
-            <button>I'm feeling lucky</button>
-            <p>Google offered in: Hausa Igbo Èdè Yorùbá Nigerian Pidgin</p>
-            <a href=""></a>
+            <footer>
+                <div class="footer_top">
+                    <p>Nigeria</p>
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="left">
+                        <a>About</a>
+                        <a>Advertising</a>
+                        <a>Business</a>
+                        <a>How Search Works</a>
+                    </div>
+
+                    <a>Carbon neutral since 2007 </a>
+
+                    <div class="right">
+                        <a>Privacy</a>
+                        <a>Terms</a>
+                        <a>Settings</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        
-    </main>
-    
-    <footer>
-
-      <div class="footer_top">
-         <p>Nigeria</p>
-      </div>
-
-    <div class="footer_bottom">
-        
-       <div class="left">
-           <a>About</a>
-           <a>Advertising</a>
-           <a>Business</a>
-           <a>How Search Works</a>
-       </div>
-
-          <a>Carbon neutral since 2007 </a>
-       
-       <div class="right">
-           <a>Privacy</a>
-           <a>Terms</a>
-           <a>Settings</a>
-       </div>
-    </div>
-
-    
-    </footer>
-</body>
+    </body>
 </html>
